@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 
 app.use('/api/v1', router)
-const port = 5432 // ou 3001 ou 9090 ou 9091 ou 9000
+const port = 3000 // ou 3001 ou 9090 ou 9091 ou 9000
 
 database.db
     .sync({ force: false })
